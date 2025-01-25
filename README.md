@@ -1,16 +1,65 @@
-# testlineassignment
+Quiz App
 
-A new Flutter project.
+This is a Flutter-based Quiz App that provides a gamified experience for answering multiple-choice questions. The app tracks the user's answers, calculates scores, and displays the results after the quiz ends. It also includes a countdown timer for added challenge.
 
-## Getting Started
+Features
 
-This project is a starting point for a Flutter application.
+Multiple-choice questions: Users can select answers from predefined options.
 
-A few resources to get you started if this is your first Flutter project:
+Real-time score tracking: Correct answers increase the score, while incorrect answers decrease it.
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+Timer: A countdown timer ensures users answer questions within a set time limit.
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Result page: Displays the final score and a summary of the user's answers.
+
+State management: Uses the Provider package for efficient state handling.
+
+├── lib/
+│   ├── main.dart                # Entry point of the app
+│   ├── providers/
+│   │   └── quiz_provider.dart   # State management using Provider
+│   ├── pages/
+│   │   ├── start_quiz_page.dart # Starting screen
+│   │   ├── quiz_page.dart       # Quiz screen
+│   │   └── result_page.dart     # Result screen
+│   └── services/
+│       └── quiz_service.dart    # Fetches quiz data from API
+├── pubspec.yaml                 # Dependencies and assets configuration
+
+
+Setup Instructions
+
+Clone the repository
+
+git clone <repository-url>
+cd quiz-app
+
+Install dependencies
+Run the following command to install the necessary dependencies:
+
+
+flutter pub get
+
+Run the app
+Use the following command to start the app:
+
+flutter run
+
+Ensure you have a connected device or emulator.
+
+API Integration
+The app fetches quiz data from an external API. Ensure the endpoint is accessible and replace the API URL in quiz_service.dart if needed.
+Screenshots
+
+Start Quiz Page
+
+![Screenshot 2025-01-24 210453](https://github.com/user-attachments/assets/eadae03f-bce3-4975-bca7-755dd85ac511)
+
+
+Quiz Page
+
+
+![Screenshot 2025-01-24 210520](https://github.com/user-attachments/assets/ad30f29f-466e-4e9c-aacb-63f7de40ee0e)
+
+Result Page
+![Screenshot 2025-01-24 210542](https://github.com/user-attachments/assets/62cf25a3-4d50-42fc-ad79-310f064bb079)
