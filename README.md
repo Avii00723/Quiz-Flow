@@ -57,7 +57,9 @@ Start Quiz Page
 
 
 Quiz Page
+![Screenshot 2025-01-24 210502](https://github.com/user-attachments/assets/35ccc73e-5715-4922-be49-49fe1294495f)
 
+![Screenshot 2025-01-24 210510](https://github.com/user-attachments/assets/2bb88ab2-d892-4160-8f7b-c9adc027fd0a)
 
 ![Screenshot 2025-01-24 210520](https://github.com/user-attachments/assets/ad30f29f-466e-4e9c-aacb-63f7de40ee0e)
 
